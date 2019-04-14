@@ -1,15 +1,15 @@
-.. image:: https://travis-ci.org/computationalmodelling/python-package-template.svg?branch=master
-    :target: https://travis-ci.org/computationalmodelling/python-package-template
+.. image:: https://travis-ci.org/rocketmanf1/pymint.svg?branch=master
+    :target: https://travis-ci.org/rocketmanf1/pymint
     :align: right
 
-.. image:: https://codecov.io/gh/computationalmodelling/python-package-template/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/computationalmodelling/python-package-template
+.. image:: https://codecov.io/gh/rocketmanf1/pymint/branch/master/graph/badge.svg
+    :target: https://codecov.io/gl/rocketmanf1/pymint
     :align: right
 
 Attempt to provide a good-practice template for Python packages,
 making use of cloud-hosted services.
 
-Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
+Documentation `on Readthedocs <http://pymint.readthedocs.io/>`__.
 
 Setting up external services:
 

@@ -1,7 +1,6 @@
 before_script:          # install the virtual environment
   - pipenv install --dev --pre
-  - pipenv shell
-  - which python
+  - pipenv run which python
 
 stages:
   - dep-check
@@ -12,18 +11,17 @@ stages:
 pipenv-install:
   stage: dep-check
   script:
-    - which python
     - pipenv check
 
 flake8:
   stage: quality
   script:
-    - flake8
+    - pipenv run flake8
 
 black:
   stage: quality
   script:
-    - black
+    - pipenv run black
 
 mypy:
   stage: quality
@@ -33,7 +31,7 @@ mypy:
 test:
   stage: test
   script:
-    - pytest pymint/
+    - pipenv run pytest pymint/
 
 test-code-coverage:
   stage: code-coverage

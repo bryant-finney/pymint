@@ -39,6 +39,8 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.pytest_cache
+.mypy_cache
 
 # Translations
 *.mo
@@ -47,5 +49,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-#Ipython Notebook
+# Ipython Notebook
 .ipynb_checkpoints
+
+# Editor files
+.vscode
+py.code-workspace

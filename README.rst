@@ -1,9 +1,9 @@
-.. image:: https://travis-ci.org/rocketmanf1/pymint.svg?branch=master
-    :target: https://travis-ci.org/rocketmanf1/pymint
+.. image:: https://travis-ci.org/bryant-finney/pymint.svg?branch=master
+    :target: https://travis-ci.org/bryant-finney/pymint
     :align: right
 
-.. image:: https://codecov.io/gh/rocketmanf1/pymint/branch/master/graph/badge.svg
-    :target: https://codecov.io/gl/rocketmanf1/pymint
+.. image:: https://codecov.io/gh/bryant-finney/pymint/branch/master/graph/badge.svg
+    :target: https://codecov.io/gl/bryant-finney/pymint
     :align: right
 
 Attempt to provide a good-practice template for Python packages,

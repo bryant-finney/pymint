@@ -7,7 +7,7 @@ stages:
   - dep-check
   - quality
   - test
-  - coverage
+  - code-coverage
 
 pipenv-install:
   stage: dep-check
@@ -28,14 +28,14 @@ black:
 mypy:
   stage: quality
   script:
-    - echo "TODO: setup mypy"
+    - echo TODO
 
 test:
   stage: test
   script:
     - pytest pymint/
 
-test-coverage:
-  stage: coverage
+test-code-coverage:
+  stage: code-coverage
   script:
-    - echo "TODO: test code coverage"
+    - echo TODO

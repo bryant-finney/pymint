@@ -23,8 +23,5 @@ numpy = "*"
 matplotlib = "*"
 pandas = "*"
 
-[requires]
-python_version = "3"
-
 [pipenv]
 allow_prereleases = true

@@ -4,24 +4,27 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pydocstyle = "*"
-neovim = "*"
-ipython = "*"
-pytest = "*"
-sphinx = "*"
-codecov = "*"
-pytest-cov = "*"
 black = "*"
-mypy = "*"
+codecov = "*"
 flake8 = "*"
+ipython = "*"
+mypy = "*"
+neovim = "*"
+pydocstyle = "*"
+pytest = "*"
+pytest-cov = "*"
+sphinx = "*"
 
 [packages]
-pip = "*"
-wheel = "*"
-setuptools = "*"
-numpy = "*"
 matplotlib = "*"
+numpy = "*"
 pandas = "*"
+pip = "*"
+setuptools = "*"
+wheel = "*"
+
+[requires]
+python_version = "3.7"
 
 [pipenv]
 allow_prereleases = true

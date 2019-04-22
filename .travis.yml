@@ -8,7 +8,7 @@ python:
 # Install any dependencies for running the tests:
 before_install:
   - sudo apt-get install -y python-pip
-  - sudo -H pip3 install pipenv
+  - sudo -H pip install pipenv
 install:
   - pipenv install codecov pytest-cov
   - pipenv run python setup.py install

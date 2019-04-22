@@ -1,15 +1,16 @@
 # This is a simple Travis config for a project that only needs to install pure
 # Python dependencies. For more complex setups, you can use conda on Travis:
-# http://conda.pydata.org/docs/travis.html 
+# http://conda.pydata.org/docs/travis.html
 
 language: python
 python:
-  - "3.5"
-  - "3.4"
-  - "2.7"
+  - "3.6"
+  - "3.7"
 # Install any dependencies for running the tests:
-install: pip install codecov pytest-cov
+install:
+  - pipenv install codecov pytest-cov
+  - pipenv run python setup.py install
 # command to run tests
-script: py.test --cov=package_template --cov-config .coveragerc
+script: py.test --cov=pymint --cov-config .coveragerc
 after_success:
   codecov

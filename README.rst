@@ -6,6 +6,10 @@
     :target: https://codecov.io/gl/bryant-finney/pymint
     :align: right
 
+.. image:: https://development.outdoorlinkinc.com/bryant/pymint/badges/master/pipeline.svg
+    :target: https://development.outdoorlinkinc.com/bryant/pymint/commits/master
+    :align: rught
+
 Attempt to provide a good-practice template for Python packages,
 making use of cloud-hosted services.
 

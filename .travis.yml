@@ -6,6 +6,9 @@ language: python
 python:
   - "3.6"
 # Install any dependencies for running the tests:
+before_install:
+  - sudo apt install -y python3-pip
+  - sudo -H pip3 install pipenv
 install:
   - pipenv install codecov pytest-cov
   - pipenv run python setup.py install

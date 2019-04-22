@@ -1,20 +1,22 @@
-
+"""Install the pymint package."""
 from distutils.core import setup
 
-with open('README.rst') as f:
+with open("README.rst") as f:
     readme = f.read()
 
 setup(
-    name='package_template',
-    version='0.1',
-    description='A simple example of a Python package',
+    name="pymint",
+    version="0.1",
+    description=(
+        "The 'pymint' package provides an interface for parsing and graphing "
+        + "'transactions.csv' files from Intuit Mint."
+    ),
     long_description=readme,
-    author='Computational Modelling Group',
-    author_email='fangohr@soton.ac.uk',
-    packages=['package_template', 'package_template.tests'],
+    author="Bryant Finney",
+    author_email="bryant.finney@uah.edu",
+    packages=["pymint", "pymint.tests"],
     classifiers=[
-        'License :: OSI Approved :: BSD License',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-    ]
+        "License :: OSI Approved :: BSD License",
+        "Programming Language :: Python :: 3",
+    ],
 )

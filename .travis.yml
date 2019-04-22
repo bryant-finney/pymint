@@ -7,7 +7,7 @@ python:
   - "3.6"
 # Install any dependencies for running the tests:
 before_install:
-  - sudo apt install -y python-pip
+  - sudo apt-get install -y python-pip
   - sudo -H pip3 install pipenv
 install:
   - pipenv install codecov pytest-cov

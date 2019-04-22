@@ -8,7 +8,7 @@
 
 .. image:: https://development.outdoorlinkinc.com/bryant/pymint/badges/master/pipeline.svg
     :target: https://development.outdoorlinkinc.com/bryant/pymint/commits/master
-    :align: rught
+    :align: right
 
 Attempt to provide a good-practice template for Python packages,
 making use of cloud-hosted services.
